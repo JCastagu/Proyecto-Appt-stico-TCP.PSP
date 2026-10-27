@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2933;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.seccion1-cabecera {
+    background-color: #0b1f3a;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.contenedor-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 45px;
+}
+
+.menu-navegacion {
+    display: flex;
+    gap: 30px;
+}
+
+.menu-navegacion a {
+    color: #c9d4e2;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu-navegacion a:hover {
+    color: #ffffff;
+}
+
+.menu-navegacion a.activo {
+    color: #00b4d8;
+}
+
+.contenedor1-hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-imagen img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hero-contenido h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-contenido p {
+    font-size: 16px;
+    color: #c9d4e2;
+}
+
+.hero-botones {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.boton-cta {
+    background-color: #00b4d8;
+    color: #0b1f3a;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.boton-cta:hover {
+    background-color: #0096b4;
+}
+
+.boton-secundario {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 13px 28px;
+    border-radius: 6px;
+}
+
+.boton-secundario:hover {
+    background-color: #17335c;
+}
+
+.contenedor-logos-partners {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-logos-partners img {
+    height: 30px;
+    opacity: 0.5;
+}
