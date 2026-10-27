@@ -74,7 +74,10 @@ ul {
 
 .hero-imagen img {
     width: 100%;
+    max-width: 550px;
     border-radius: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 .hero-contenido h1 {
@@ -127,8 +130,10 @@ ul {
 }
 
 .contenedor-logos-partners img {
-    height: 30px;
-    opacity: 0.5;
+    height: 65px;
+    width: auto;
+    opacity: 0.9;
+    filter: none; /* Quitamos el filtro para que se vean los colores originales si los tienen */
 }
 
 .seccion2-caracteristicas {
@@ -153,18 +158,22 @@ ul {
 }
 
 .pilar-icono {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     margin: 0 auto 20px;
     border-radius: 50%;
-    background-color: #0b1f3a;
+    background-color: #ffffff; 
+    border: 3px solid #0b1f3a; 
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden; 
 }
 
 .pilar-icono img {
-    width: 40px;
+    width: 90%; 
+    height: 90%;
+    object-fit: contain; 
 }
 
 .pilar-item h3 {
